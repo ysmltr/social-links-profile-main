@@ -42,7 +42,7 @@
 
  .img{
    width: 5.2rem;
-   margin-top: 1.9rem;
+   margin-top: 1rem;
    border-radius: 50%;
    margin-bottom: 1.9rem;
  }
@@ -78,7 +78,7 @@
    display: inline-block;
    width: 100%;
    color: var(--white);
-   padding: 1rem 5rem ;
+   padding: 1rem 4rem ;
    border-radius: 10px;
    background-color: var(--gray);
    font-weight: 700;
@@ -91,4 +91,11 @@
 
 
 
- 
+ @media (max-width: 467px) {
+   .container{
+      padding: 0 1.3rem;
+   }
+   .card-link{
+      padding: 0.9rem;
+   }
+ }
