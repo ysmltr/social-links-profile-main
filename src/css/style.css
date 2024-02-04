@@ -23,5 +23,51 @@
  }
 
  .container{
-   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+ }
+
+ .card{
+   max-width: 100%;
+   text-align: center;
+   background-color: var(--dark-gray);
+   border-radius: 1rem;
+ }
+
+ .user-profile{
+   padding: 2.5rem;
+ }
+
+ .img{
+   width: 5.2rem;
+   border-radius: 50%;
+   margin-bottom: 1.5rem;
+ }
+
+ .name-surname{
+    margin: 0;
+    margin-bottom: 9px;
+    font-weight: 600;
+    font-size: 1.5rem; 
+ }
+ .location{
+   margin: 0;
+    margin-bottom: 1.7rem;
+    color: var(--green);
+    font-weight: 600;
+ }
+ .description{
+   margin: 0;
+   margin-bottom: 1.7rem;
+ }
+
+ .link-list{
+   text-decoration: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   flex-direction: column;
+
  }
